@@ -1,0 +1,16 @@
+Define a class Employee having attributes    
+
+	•	name (char *)   
+	•	hourly_pay_rate (float*)   
+	•	working_hours(int*)
+   
+   
+Now do the following operations on above-mentioned class:   
+	
+	1.	Write default constructor, parameterized constructor and copy constructor.
+	2.	Write separate setter functions for each attribute to set value (with no memory leakage).  
+	3.	Write separate getter functions for each attribute to get value.
+	4.	Write a destructor (with an output statement to check the lifetime scope of object). 
+	5.	Write a display() function to display attributes of class Employee on screen.   
+	6.	Write an AddSal() function, which adds $10 to the salary of the employee if it is less than $500
+	7.	Write an “AddWork()” function, which adds $5 to the salary of the employee if the number of hours of work per day is more than 6 hours.

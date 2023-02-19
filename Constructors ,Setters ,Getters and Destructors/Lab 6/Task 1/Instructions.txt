@@ -1,0 +1,17 @@
+Define a class Car having attributes    
+
+	•	name (char *)   
+	•	model (char* )   
+	•	noOfDoor (int*)
+   
+   
+Now do the following operations on the above-mentioned class:   
+	
+	1.	Write default constructor, parameterized constructor, and copy constructor.
+	2.	Write separate setter functions for each attribute to set value (with no memory leakage).  
+	3.	Write separate getter functions for each attribute to get value.
+	4.	Write a destructor (with an output statement to check the lifetime scope of the object). 
+	5.	Write a display() function to display attributes of class Car on screen.   
+  
+   
+Now write the main function to declare different objects of class Cat. Then call the display function against every object to see the information stored.   

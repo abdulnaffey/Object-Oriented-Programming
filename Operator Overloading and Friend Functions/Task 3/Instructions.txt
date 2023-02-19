@@ -1,0 +1,28 @@
+Write a C++ program to create a complex number class. Write getter setter, constructor,
+destructor,and all overloaded operators needed to run the given driver code.
+
+class complex 
+{
+ private:
+	int real;
+	int imag;
+ public:
+
+		//All functions that are needed.
+
+};
+
+
+int main() 
+{
+
+	complex c1(5,7);		// for complex numbers, such as 5+7i
+	complex c2(5); 		// for numbers without imaginary part as 5 + 0i
+	complex c3(); 
+	complex c4(); 
+	c3 = c1+c2; 
+	c4 = c1-c2; 
+	c5 = c3*c4; 
+	c6 = c4/c5; 
+	return 0;
+ }

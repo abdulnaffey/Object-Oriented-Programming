@@ -1,0 +1,41 @@
+Repeat task 1, to create a class for Date; however, no need to take pointer attributes; the
+attributes will therefore be:
+
+		int day;
+		int month;
+		int year;
+
+	1. Rule of three is NOT required (we don’t have any pointer attribute). Rule of three is
+   	   required only if there is at least one pointer attribute.
+	2. Overloaded constructor with default values
+	3. Getter of each attribute (setters are NOT required)
+	4. operator ==
+	5. operator >
+	6. As discussed in class, only using operator == and operator >, provide
+	   implementation of:
+		i. operator !=
+		ii. operator <
+		iii. operator <=
+		iv. operator >=
+	7. operator << //Example Output: 30-4-2013
+	8. operator >>
+	9. operator + //to add integer days in a Date
+	   Hint: The porotype should be:
+		Date operator + (int d) 	//where d is days
+	   Example: 20-3-1985 + 16 days will return date as: 5-4-1985
+	10. operator - 		//to subtract two values of time
+	11. Hint: The porotype should be:
+		Date operator - (int d) 	//where d is days
+		Example: 20-3-1985 - 155 days will return date as: 16-10-1984
+	12. operator ++
+		i. post-increment
+		ii. pre-increment
+	13. operator --
+		i. post-increment
+		ii. pre-increment
+
+	Make sure to check that the date remains valid in all the functions that are:
+
+		A. 1 <= day <= 31
+		B. 0 <= month <= 12
+		C. 0 <= year <= n 	where n is a positive integer

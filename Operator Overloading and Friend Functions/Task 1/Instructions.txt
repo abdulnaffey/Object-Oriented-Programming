@@ -1,0 +1,36 @@
+Let’s create a class Time to work with a 12-hour formatted time having the following attributes:
+
+	int* hours
+	int* minutes
+	int* seconds
+
+Provide the following functions:
+	1. According to the rule of three:
+		i. Copy Constructor
+		ii. operator =
+		iii. Destructor
+	2. Overloaded constructor with default values
+	3. Getter of each attribute (setters are NOT required)
+	4. operator ==
+	5. operator >
+	6. As discussed in class, only using operator == and operator >, provide
+	   implementation of:
+		i. operator !=
+		ii. operator <
+		iii. operator <=
+		iv. operator >=
+	7. operator << //Example Output 2:13:47
+	8. operator >>
+	9. operator + //to add two values of time
+	10. operator - //to subtract two values of time
+	11. operator ++
+		i. post-increment
+		ii. pre-increment
+	12. operator --
+		i. post-increment
+		ii. pre-increment
+
+Make sure to check that the time remains valid in all the functions that are:
+	A. 1 <= hours <=12
+	B. 0 <= minutes < 60
+	C. 0 <= seconds < 60
